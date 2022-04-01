@@ -1,0 +1,31 @@
+/* ./styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-background {
+	background: rgba(46, 26, 97, 0.1);
+}
+
+.bg-img {
+	/* background-color: '#FED700'; */
+	background: linear-gradient(180deg, #88d3ce 0%, #423864 100%);
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	/* background-position: center; */
+}
+
+.bg-img-2 {
+	background-image: url('../public/images/Rectangle.png');
+}
+.bg-footer {
+	background-image: url('../public/images/footerlogo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
